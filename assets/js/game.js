@@ -27,6 +27,8 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 
 var fight = function (enemyName) {
+  window.alert("Welcome to Robot Gladiators!");
+
   while (playerHealth > 0 && enemyHealth > 0) {
     // ask player if they'd like to fight or run
     var promptFight = window.prompt(
